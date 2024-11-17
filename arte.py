@@ -30,7 +30,7 @@ st.set_page_config(layout="wide")
 # Add the check_password function
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "francodanesi":
+        if st.session_state["password"] == "maxime":
             st.session_state["password_correct"] = True
             del st.session_state["password"]  # don't store password
         else:
